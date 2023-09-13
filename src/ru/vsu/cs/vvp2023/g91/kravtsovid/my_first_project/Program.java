@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
         System.out.print("Введите баллы по аттестациям: ");
-        int a1, a2, a3;
+        int firstAttestation, secondAttestation, thirdAttestation;
         Scanner scan = new Scanner(System.in);
-        a1 = scan.nextInt();
-        a2 = scan.nextInt();
-        a3 = scan.nextInt();
-        double res = (a1 + a2 + a3) / 3.0;
+        firstAttestation = scan.nextInt();
+        secondAttestation = scan.nextInt();
+        thirdAttestation = scan.nextInt();
+        double res = (firstAttestation + secondAttestation + thirdAttestation) / 3.0;
         System.out.println(res);
 
     }
